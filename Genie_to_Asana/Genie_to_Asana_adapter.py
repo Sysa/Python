@@ -97,10 +97,10 @@ def main():
 
     Genie_instance = Genie()
     defect_info = Genie.get_defect_info_by_id(Genie(), cursor, def_id)
-    #defect_info2 = Genie_instance.get_defect_info_by_id(cursor, "1111111")
+    defect_info2 = Genie_instance.get_defect_info_by_id(cursor, "1111111")
 
     print(defect_info)
-    #print(defect_info2)
+    print(defect_info2)
 
     # avaliable fields:
     # print(defect_info['id'])
