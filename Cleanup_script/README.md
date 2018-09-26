@@ -26,8 +26,8 @@ For example: path `C:\Python36\python.exe` must be `C:\\Python36\\python.exe`
 
 ## Python script:
 #### optional arguments:
-*   ** -h, --help         show this help message and exit
-*   **--path** PATH        path for cleanup, for example //C:/Users/Alex/Downloads/
+*   **-h, --help**         show this help message and exit
+*   **--path** PATH        path for cleanup, for example `//C:/Users/Alex/Downloads/`
 *   **--ttl** TTL          Time To Live - count of days since today, files older
                      than this counter will be removed
 *   **--kl** KL            Keep Last - N number of files, which must be alive after
