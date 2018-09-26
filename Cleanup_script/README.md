@@ -1,9 +1,7 @@
-# Python
+# Parameters of pipeline project:
 
-Parameters of pipeline project:
-
-Groovy script:
-NodeForCleanup - name (or label) of jenkins node (worker/slave) where need to perform a cleanup
+## Groovy script:
+* **NodeForCleanup** - name (or label) of jenkins node (worker/slave) where need to perform a cleanup
 
 PathForCleanup - Full path to directory, which must be cleared from old files.Note: backslashes must be changed to commond slashes, and don't forget about closing slash in the end of the path
 For example: path `C:\MangoClient\Application Files` should be changed to `C:/MangoClient/Application Files/`
