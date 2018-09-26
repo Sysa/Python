@@ -19,20 +19,20 @@ Note: backslashes must be escaped with backslashes (doubled backslashes in sum)
 For example: path `C:\Python36\python.exe` must be `C:\\Python36\\python.exe`
 
 * **EmailToReport** - E-mails to which execution report should to go. Emails separates by newline.
-	..* Example:
-	..* a@a.com
-	..* b@b.net
+	* Example:
+	* a@a.com
+	* b@b.net
 
 
 ## Python script:
 optional arguments:
-  -h, --help         show this help message and exit
-  **--path** PATH        path for cleanup, for example //C:/Users/Alex/Downloads/
-  **--ttl** TTL          Time To Live - count of days since today, files older
+*   -h, --help         show this help message and exit
+*   **--path** PATH        path for cleanup, for example //C:/Users/Alex/Downloads/
+*   **--ttl** TTL          Time To Live - count of days since today, files older
                      than this counter will be removed
-  **--kl** KL            Keep Last - N number of files, which must be alive after
+*   **--kl** KL            Keep Last - N number of files, which must be alive after
                      cleanup. Only N newest files will be in safe
-  **--emails** EMAILS    E-mails to which execution report should to go.Emails
+*   **--emails** EMAILS    E-mails to which execution report should to go.Emails
                      separates by comma `,` and passes in one string.Example:
                      a@a.com,b@b.ru,etc@etc.net
-  **--job_url JOB_URL**  Optional, generally set by Jenkins environment variable.
+*   **--job_url JOB_URL**  Optional, generally set by Jenkins environment variable.
