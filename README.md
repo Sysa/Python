@@ -4,20 +4,16 @@ All scripts has been written by me
 ## Asana_improvements_project
 Add some functionallity to asana, as: add default followers based on project or custom fields, weekly reports, etc. Required Asana API [Python lib](https://github.com/Asana/python-asana)
 
-## Book parse
-Script to grab e-book from web-portal and export results in xml\html\pdf
-No documentation
-
 ## BOParse
-FTP/SFTP specific parser, legacy
+FTP/SFTP downloader and specific parser for big files, prepares data for back office system
 
 ## Cleanup script
 Python script for simple cleanup of directories, launching from Groovy script (Jenkinsfile)
 Valid documentation also available inside [cleanup script](https://github.com/Sysa/Python/tree/master/Cleanup_script)
 
-# Parameters of pipeline project:
+### Parameters of pipeline project:
 
-## Groovy script:
+#### Groovy script:
 * **NodeForCleanup** - name (or label) of jenkins node (worker/slave) where need to perform a cleanup
 
 * **PathForCleanup** - Full path to directory, which must be cleared from old files.Note: backslashes must be changed to commond slashes, and don't forget about closing slash in the end of the path
@@ -41,8 +37,8 @@ For example: path `C:\Python36\python.exe` must be `C:\\Python36\\python.exe`
 	* b@b.net
 
 
-## Python script:
-#### optional arguments:
+#### Python script:
+###### optional arguments:
 *   **-h, --help**         show this help message and exit
 *   **--path** PATH        path for cleanup, for example `//C:/Users/Alex/Downloads/`
 *   **--ttl** TTL          Time To Live - count of days since today, files older
@@ -56,8 +52,15 @@ For example: path `C:\Python36\python.exe` must be `C:\\Python36\\python.exe`
 
 ## Genie to Asana
 Python adapter to connect Siebel DB (Genie) to Asana's API
-No documentation, integration with legacy
+
+No documentation, integration with legacy software and DB
 
 ## PC Settings Backuper
 Simple script to archive and move files, with e-mail report
+
+No documentation
+
+## book_parse
+Script to grab e-book from web-portal and export results in xml\html\pdf
+
 No documentation
