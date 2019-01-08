@@ -1,4 +1,6 @@
 # Python
+All scripts has been written by me
+
 ## Cleanup script
 Python script for simple cleanup of directories, launching from Groovy script (Jenkinsfile)
 Valid documentation available only in [cleanup script](https://github.com/Sysa/Python/tree/master/Cleanup_script)
